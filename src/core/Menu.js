@@ -10,7 +10,12 @@ const isActive=(history,path)=>{
 
 
 const Menu=({history})=>(
-    <div>
+  <>
+  <div className="" style={{margin:"8px",fontSize:"30px",color:"Red",float:"right",backgroundColor:"black",width:"100vw",textAlign:"center"}}>
+     <center>InstaMini</center>
+    </div>
+    <div style={{clear:"both"}}>
+     
         <ul className="nav nav-tabs bg-primary">
   <li className="nav-item">
   <Link className="nav-link" style={isActive(history,"/")} to="/">Home</Link>
@@ -70,8 +75,11 @@ const Menu=({history})=>(
 </>
    )}
 
-</ul>
+ 
+</ul> 
+   
     </div>
+    </>
 );
 
 export default withRouter(Menu)
