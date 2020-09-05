@@ -11,7 +11,7 @@ const isActive=(history,path)=>{
 
 const Menu=({history})=>(
   <>
-  <div className="" style={{margin:"8px",fontSize:"30px",color:"Red",float:"right",backgroundColor:"black",width:"100vw",textAlign:"center"}}>
+  <div className="" style={{fontSize:"30px",color:"Red",float:"right",backgroundColor:"black",width:"100vw",textAlign:"center"}}>
      <center>InstaMini</center>
     </div>
     <div style={{clear:"both"}}>
