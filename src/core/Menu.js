@@ -72,6 +72,7 @@ const Menu=({history})=>(
          </span>
         
   </li>
+  
 </>
    )}
 
@@ -79,6 +80,7 @@ const Menu=({history})=>(
 </ul> 
    
     </div>
+   
     </>
 );
 

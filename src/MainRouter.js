@@ -2,6 +2,7 @@ import React from 'react'
 import ResetPassword from "./user/ResetPassword";
 import {Route,Switch} from 'react-router-dom'
 import Home from './core/Home'
+import Footer from './core/Footer'
 import Signup from './user/Signup'
 import Signin from './user/Signin'
 import Menu from "./core/Menu"
@@ -18,8 +19,9 @@ import ForgotPassword from "./user/ForgotPassword";
 
 const MainRouter=()=>(
 
-  <div>
+  <div >
       <Menu/>
+      <div style={{minHeight:"65vh"}}>
       <Switch>
 
          
@@ -44,6 +46,8 @@ const MainRouter=()=>(
         
          
       </Switch>
+      </div>
+      <Footer/>
   </div>
 
 );
